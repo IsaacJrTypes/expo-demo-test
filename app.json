@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "demo-test",
-    "slug": "demo-test",
+    "name": "expo-demo-test",
+    "slug": "expo-demo-test-config",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/wolf.png",
     "userInterfaceStyle": "light",
+    "description":"A testing bed for learning config file",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -16,15 +17,17 @@
     ],
     "ios": {
       "supportsTablet": true
+      
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/wolf.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.example.testing"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/wolf.png"
     }
   }
 }
