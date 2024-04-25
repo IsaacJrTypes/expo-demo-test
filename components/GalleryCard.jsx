@@ -14,7 +14,7 @@ export default function GalleryCard({ products }) {
   return (
     <>
       <View className="bg-green-500 h-80 flex-1">
-        <Image height={'60%'} source={{ uri: product.imgPath }}></Image>
+        <Image height={400}  source={{ uri: product.imgPath }}></Image>
         <Text>{product.description}</Text>
         <View className="flex flex-row bg-slate-900 max-h-60">
           <View>
